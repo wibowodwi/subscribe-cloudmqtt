@@ -9,5 +9,9 @@ Instance dibuat secara otomatis setelah user menyelesaikan proses sign up dan us
 
 <img width="1417" alt="instance-details" src="https://user-images.githubusercontent.com/50950100/72207123-2b226780-34c8-11ea-8684-e638b8482d87.png">
 
+# Requirements
+* Data yang masuk CloudMQTT berupa JSON
+* Mysql Database
+
 # Referensi
 Project ini dibuat berdasarkan referensi [CloudMQTT GitHub](https://github.com/CloudMQTT)
