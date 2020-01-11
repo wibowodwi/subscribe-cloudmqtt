@@ -6,7 +6,7 @@ $host = "xxxxx.cloudmqtt.com";     // server cloudmqtt
 $port = 123456;                     // port cloudmqtt
 $username = "username_mqtt";                   // user cloudmqtt
 $password = "password_mqtt";                   // password cloudmqtt
-$mqtt = new phpMQTT($host, $port, "example_1"); //web_ adalah nama client id , dapat diubah sesuai keinginan
+$mqtt = new phpMQTT($host, $port, "example_1");
 if(!$mqtt->connect(true, NULL, $username, $password)) {
  	exit(1);
 }
